@@ -1,13 +1,56 @@
 /* To be edited */
 
-body {
+:root{
+    --hotpink: hotpink;
+}
 
+body {
+    background-color: rgb(77, 73, 73);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
 }
 
 header {
+    text-align: center;
+    color: white;
+}
 
+h1 {
+   color: var(--hotpink); 
+}
+
+.card {
+    border: dashed white;
+    color: var(--hotpink);
+    flex: 1 0 100px;
+    flex-wrap: wrap;
+    padding: 10px;
+    text-align: center;
+    border-width: 3px;
+    margin: 30px;
+    width: 20%;
+}
+
+.card-header {
+    border: 2px solid white;
+    padding: 5px;
+    position: relative;
+    margin-top: -20px;
+    background-color: rgb(77, 73, 73);
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
 }
 
 footer {
-
+    text-align: center;
+    color: white;
 }
